@@ -1,0 +1,83 @@
+a {
+  text-decoration: none;
+  color: #485188;
+}
+
+footer {
+  text-align: center;
+  font-size: smaller;
+  opacity: 0.7;
+}
+
+.container {
+  background-color: #d6e6f2;
+  color: #485188;
+  max-width: 50%;
+  border: 1px solid #485188;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background: #f7fbfc;
+}
+
+.col-4 {
+  text-align: right;
+}
+
+.middle {
+  margin: 20px 0;
+  border: 1px solid #485188;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.city-name {
+  font-size: 50px;
+  font-weight: 500;
+  padding-left: 9px;
+}
+
+.date-time-description {
+  opacity: 0.8;
+  line-height: 1.2;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.main-icon {
+  font-size: 50px;
+}
+
+.units {
+  font-size: 18px;
+  position: relative;
+  bottom: 37px;
+}
+
+.wind-humidity {
+  opacity: 0.8;
+  line-height: 1.2;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.five-days {
+  margin: 20px 0px;
+  padding: 10px;
+}
+
+.days {
+  border: 1px solid #485188;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  background: #e7eaf6;
+  transition: all 200ms ease-in-out;
+  opacity: 0.9;
+}
+
+.days:hover {
+  color: white;
+  background: #485188;
+}
